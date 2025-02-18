@@ -24,6 +24,12 @@ Create a `.env.local` file in the root directory with:
 NEXT_PUBLIC_PROJECT_ID=your_walletconnect_project_id
 ```
 - Get your WalletConnect Project ID from [WalletConnect Cloud](https://cloud.walletconnect.com/)
+- Ideally the .env.local should look sth like this 
+  ```
+NEXT_PUBLIC_POLYGON_RPC_URL=""
+NEXT_PUBLIC_PROJECT_ID=""
+MONGODB_URI=""
+
 
 ### 3. Install Dependencies
 ```bash
